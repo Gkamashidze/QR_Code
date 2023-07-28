@@ -1,0 +1,39 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+}
+
+@font-face {
+    font-family: Outfit;
+    src: url(./src/fonts/Outfit-Regular.ttf);
+}
+
+img {
+    border-radius: 15px;
+}
+
+.main-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    text-align: center;
+}
+
+.main-box>h3 {
+    font-family: Outfit;
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+
+.main-box>span {
+    font-family: Outfit;
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+    padding-bottom: 15px;
+}
