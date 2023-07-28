@@ -19,6 +19,7 @@ img {
     background-color: hsl(0, 0%, 100%);
     border-radius: 15px;
     text-align: center;
+    /* height: 100vh; */
 }
 
 .main-box>h3 {
